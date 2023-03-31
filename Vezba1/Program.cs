@@ -29,6 +29,9 @@ Console.WriteLine("*************************************************");
 Console.WriteLine("Vnesete go prviot broj: ");
 int a = int.Parse(Console.ReadLine());
 
+
+
+
 if (a == 1)
 {
     Console.WriteLine("True");
