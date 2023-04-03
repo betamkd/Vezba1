@@ -95,5 +95,6 @@ else {
 // nesto developirame novo vo noviot branch 3
 // nesto developirame novo vo noviot branch 4
 // nesto developirame novo vo noviot branch 5
-// nesto developirame novo vo noviot branch 6
+// nesto developirame novo vo noviot branch 6_6
+// nesto developirame novo vo noviot branch 7
 
