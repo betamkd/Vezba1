@@ -99,3 +99,6 @@ else {
 // nesto developirame novo vo noviot branch 6_6
 // nesto developirame novo vo noviot branch 7
 
+// nesto developirame novo vo noviot branch 6
+
+//++
