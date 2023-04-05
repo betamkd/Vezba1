@@ -117,58 +117,69 @@ double c = 0.2;*/
 #region Test Region 2
 
 
-Console.WriteLine("Region 2 Execute...");
+//Console.WriteLine("Region 2 Execute...");
 
-// var functions = new Functions();
+//// var functions = new Functions();
+
+
+//User korisnik  = new User();
+//korisnik.Id = 1;
+//korisnik.Name = "Ivan";
+//korisnik.Country = "Macedonia";
+//korisnik.City = "Skopje";
+//korisnik.Address = "Ilindenska br.1";
+//korisnik.Email = "korisnik@gmail.com";
+//korisnik.Username = "username_korisnik";
+//korisnik.Password = "password";
+//korisnik.DateCreated = DateTime.Now;
+//korisnik.LastOnline = DateTime.Now;
+//korisnik.Years = 30;
+
+//User user2 = new User()
+//{
+//	Id = 2,
+//	Name = "Jovan",
+//	City = "Veles",
+//	Country = "Macedonia",
+//};
+
+//Console.WriteLine(user2);
+//Console.WriteLine("\n");
+//Console.WriteLine("\n");
+//Console.WriteLine("\n");
+
+//Console.WriteLine($"Korisnikot so ime {user2.Name}\n" +
+//	$"so mesto na ziveenje vo {user2.City}, {user2.Country}\n" +
+//	$"ima {user2.Years} godini!"
+//	);
+
+//Console.WriteLine(korisnik);
+//Console.WriteLine("\n");
+//Console.WriteLine("\n");
+//Console.WriteLine("\n");
+
+//Console.WriteLine($"Korisnikot so ime {korisnik.Name}\n" +
+//	$"so mesto na ziveenje vo {korisnik.City}, {korisnik.Country}\n" +
+//	$"ima {korisnik.Years} godini!"
+//	);
+
+//var number = 1;
+
+////var checkIfNumber = 
+
+
+#endregion
+
+#region Test Region 3
 Functions functions = new Functions();
 
+var fiveCheck = functions.CheckIfItsFive(5);
 
-User korisnik  = new User();
-korisnik.Id = 1;
-korisnik.Name = "Ivan";
-korisnik.Country = "Macedonia";
-korisnik.City = "Skopje";
-korisnik.Address = "Ilindenska br.1";
-korisnik.Email = "korisnik@gmail.com";
-korisnik.Username = "username_korisnik";
-korisnik.Password = "password";
-korisnik.DateCreated = DateTime.Now;
-korisnik.LastOnline = DateTime.Now;
-korisnik.Years = 30;
+//Console.WriteLine(fiveCheck);
 
-User user2 = new User()
-{
-	Id = 2,
-	Name = "Jovan",
-	City = "Veles",
-	Country = "Macedonia",
-};
+//functions.MakeTransaction(499.30);
 
-Console.WriteLine(user2);
-Console.WriteLine("\n");
-Console.WriteLine("\n");
-Console.WriteLine("\n");
-
-Console.WriteLine($"Korisnikot so ime {user2.Name}\n" +
-	$"so mesto na ziveenje vo {user2.City}, {user2.Country}\n" +
-	$"ima {user2.Years} godini!"
-	);
-
-Console.WriteLine(korisnik);
-Console.WriteLine("\n");
-Console.WriteLine("\n");
-Console.WriteLine("\n");
-
-
-Console.WriteLine($"Korisnikot so ime {korisnik.Name}\n" +
-	$"so mesto na ziveenje vo {korisnik.City}, {korisnik.Country}\n" +
-	$"ima {korisnik.Years} godini!"
-	);
-
-
-var number = 1;
-
-//var checkIfNumber = 
-
+var message = functions.MakeTransaction(500.30);
+Console.WriteLine(message);
 
 #endregion
